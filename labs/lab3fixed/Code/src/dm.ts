@@ -37,6 +37,7 @@ const grammar: { [index: string]: GrammarEntry } = {
   tal: { person: "Talha Bedir" },
   tom: { person: "Tom Södahl Bladsjö" },
   eugene: { person: "Eugene Wong" },
+
   monday: { day: "Monday" },
   tuesday: { day: "Tuesday" },
   wednesday: { day: "Wednesday" },
@@ -44,6 +45,7 @@ const grammar: { [index: string]: GrammarEntry } = {
   friday: { day: "Friday" },
   saturday: { day: "Saturday" },
   sunday: { day: "Sunday" },
+
   "1": { time: "01:00" },
   "2": { time: "02:00" },
   "3": { time: "03:00" },
@@ -67,8 +69,32 @@ const grammar: { [index: string]: GrammarEntry } = {
   "21": { time: "21:00" },
   "22": { time: "22:00" },
   "23": { time: "23:00" },
+
   yes: { value: true },
+  yeah: { value: true },
+  yep: { value: true },
+  yup: { value: true },
+  sure: { value: true },
+  "of course": { value: true },
+  absolutely: { value: true },
+  "that's right": { value: true },
+  correct: { value: true },
+  "sounds good": { value: true },
+  "do it": { value: true },
+  ja: { value: true },
+  positive: { value: true },
+
   no: { value: false },
+  nope: { value: false },
+  nah: { value: false },
+  "no way": { value: false },
+  cancel: { value: false },
+  incorrect: { value: false },
+  wrong: { value: false },
+  "don't do that": { value: false },
+  nej: { value: false },
+  negative: { value: false },
+
   appointment: { type: "appointment" },
 };
 
